@@ -7,6 +7,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 import Footer from '@/components/Footer'
 import { FaHome } from "react-icons/fa";
+import ContactForm from "@/components/ContactForm";
 
 
 export default function Home() {
@@ -19,6 +20,8 @@ export default function Home() {
           <RecentProjects/>
           <Clients/>
           <Experience/>
+          
+          <ContactForm/>
           <Footer/>
         </div>
     </main>
