@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Successfully delivered projects within deadline ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Next Js Full Stack Website",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "So can we start a project together ?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -107,34 +107,29 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shaaz was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shaaz's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shaaz is the ideal partner.",
+    name: "Modassir Ahmad",
+    title: "Director of Pixelflame Software Pvt. Ltd",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shaaz was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shaaz's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shaaz is the ideal partner.",
+    name: "Zeeshan Ahmad",
+    title: "Manager of Pixelflame Software Pvt.Ltd",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shaaz was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shaaz's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shaaz is the ideal partner.",
+    name: "Amarjeet",
+    title: "CEO of Gravity Coding",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Shaaz was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Shaaz's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Shaaz is the ideal partner.",
+    name: "Md. Wasim",
+    title: "Director of Witcher's Code",
   },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+
 ];
 
 export const companies = [
@@ -173,29 +168,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Developer",
+    desc: "Assisted in the development of a web-based platform using Next Js and React JS.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Backend-Developer",
+    desc: "Coded Backend logic of the project usin node js , mongoDB m, express js ",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Full-Stack-Developer",
+    desc: "Designed and develop both frontend and backend part of the project.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Mobile Friendly Design",
+    desc: "Developed  user-friendly website  with the help of CSS framework like taiwlind , shadcn and custom css.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
