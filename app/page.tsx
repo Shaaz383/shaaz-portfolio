@@ -8,6 +8,7 @@ import { navItems } from "@/data";
 import Footer from '@/components/Footer'
 import { FaHome } from "react-icons/fa";
 import ContactForm from "@/components/ContactForm";
+import PracticeProjects from "@/components/PracticeProjects";
 
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
           <RecentProjects/>
           <Clients/>
           <Experience/>
-          
+          <PracticeProjects/>
           <ContactForm/>
           <Footer/>
         </div>
