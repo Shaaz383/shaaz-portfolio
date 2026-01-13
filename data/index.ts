@@ -80,27 +80,36 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Bite-Box - Food Delivery App",
+    des: "Order your favorite meals with a seamless shopping cart experience and real-time order updates.",
+    img: "/recent-projects/food.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
+    link: "https://food-delivery-app-azure.vercel.app",
+  },
+
+  {
+    id: 3,
+    title: "SocialVerse - Social Media App",
+    des: "A feature-rich social media app with user profiles, post creation, and interactive notifications.",
+    img: "/recent-projects/insta.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
+    link: "https://social-verse-ten.vercel.app/",
+  },
+    {
+    id: 4,
+    title: "FitFlow",
+    des: "A fitness tracking app that helps users monitor their workouts, set goals, calculate calories, and achieve their fitness aspirations.",
+    img: "/recent-projects/fitflow.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
+    link: "https://fit-flow-66gl.vercel.app/",
+  },
+    {
+    id: 5,
     title: "Next Js Advance Authentication",
     des: "Advanced authentication system with email verification, password recovery, and multi-factor authentication.",
     img: "/recent-projects/authetication.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
     link: "https://next-advance-authentication.vercel.app",
-  },
-  {
-    id: 3,
-    title: "Insta Features",
-    des: "A feature-rich social media app with user profiles, post creation, and interactive notifications.",
-    img: "/recent-projects/insta.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
-    link: "https://insta-features.onrender.com",
-  },
-  {
-    id: 4,
-    title: "Food Delivery app",
-    des: "Order your favorite meals with a seamless shopping cart experience and real-time order updates.",
-    img: "/recent-projects/food.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
-    link: "https://food-delivery-app-azure.vercel.app",
   },
 ];
 

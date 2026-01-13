@@ -1,10 +1,12 @@
 "use client"
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 import { cn } from "@/utils/cn";
 

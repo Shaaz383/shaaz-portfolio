@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="pb-20 pt-36">
 
-      
+
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -30,7 +30,7 @@ const Hero = () => {
        *  change bg color to bg-black-100 and reduce grid color from
        *  0.2 to 0.03
        */}
-       
+
       <div
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
@@ -45,7 +45,7 @@ const Hero = () => {
 
 
       <div className="flex justify-center relative my-20 z-10">
-     
+
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hello , I am <span className="text-purple font-bold">Syed Shaaz Akhtar</span> , Full stack developer
@@ -62,28 +62,33 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-xs md:text-lg lg:text-sm">
-          Skilled Web Developer with 2 years of experience creating responsive and user-friendly web applications. Proficient in <span className="text-purple font-bold">HTML, CSS, JavaScript, Node.js, MongoDB, and Next.js .</span>  Adept at collaborating with cross-functional teams to deliver exceptional results. Strong problem-solving skills and a commitment to continuous learning.
+            <span className="text-purple font-bold">Full-Stack Developer</span>  with nearly <span className="text-purple font-bold">2 years of experience</span> specializing in <span className="text-purple font-bold">React.js, Next.js, Node.js, and MongoDB</span>. Expert in
+            implementing <span className="text-purple font-bold">secure authentication, RESTful API integration</span> , and <span className="text-purple font-bold">performance optimization</span>  to build scalable web
+            applications. Proven track record of improving <span className="text-purple font-bold">user experiences </span> and collaborating within <span className="text-purple font-bold">cross-functional</span>  teams to deliver
+            high-quality digital solutions.
+
           </p>
-            
-            <div className="flex gap-4">
-          <a href="#about">
-            <MagicButton
-              title="See my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
-          <a href="/resumes/SyedShaazAkhtar.pdf" download>
-      <MagicButton
-        title="Download resume"
-        icon={<FaDownload />}
-        position="right"
-      />
-    </a>
+
+
+          <div className="flex gap-4">
+            <a href="#about">
+              <MagicButton
+                title="See my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="/resumes/SyedShaazAkhtar.pdf" download>
+              <MagicButton
+                title="Download resume"
+                icon={<FaDownload />}
+                position="right"
+              />
+            </a>
 
 
 
-            </div>
+          </div>
         </div>
       </div>
     </div>
