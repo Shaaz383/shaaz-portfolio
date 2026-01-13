@@ -99,7 +99,7 @@ export const projects = [
     id: 4,
     title: "FitFlow",
     des: "A fitness tracking app that helps users monitor their workouts, set goals, calculate calories, and achieve their fitness aspirations.",
-    img: "/recent-projects/fitflow.jpg",
+    img: "/recent-projects/fitflow.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
     link: "https://fit-flow-66gl.vercel.app/",
   },
