@@ -84,7 +84,7 @@ export const projects = [
     des: "Order your favorite meals with a seamless shopping cart experience and real-time order updates.",
     img: "/recent-projects/food.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/next.svg"],
-    link: "https://food-delivery-app-azure.vercel.app",
+    link: "https://bite-box-beta.vercel.app/",
   },
 
   {
